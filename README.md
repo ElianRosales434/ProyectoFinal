@@ -5,6 +5,7 @@ Este proyecto consiste en el desarrollo de una aplicación web para registrar y 
 ## Secciones de la Documentación
 
 - [Roles y Responsabilidades](docs/roles.md)
+- [Reuniones de Scrum](docs/reuniones.md)
 - [Sprint Backlog](docs/sprint_backlog.md)
 - [Definición de Terminado (DoD)](docs/definicion_terminado.md)
 - [Objetivos del Producto y del Sprint](docs/objetivos.md)
