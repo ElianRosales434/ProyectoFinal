@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Togas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Registro de Togas</h1>
+        <div class="col-md-6">
+            <form id="gownForm" onsubmit="saveGown(); return false;">
+                <input type="text" id="gownStudentName" class="form-control" placeholder="Nombre del Estudiante" required>
+                <input type="text" id="gownSize" class="form-control" placeholder="Tamaño de la Toga" required>
+                <input type="text" id="gownSignatureGiven" class="form-control" placeholder="Firma al Entregar" required>
+                <input type="text" id="gownSignatureReturned" class="form-control" placeholder="Firma al Devolver" required>
+                <input type="date" id="gownDateIssued" class="form-control" placeholder="Fecha de Entrega" required>
+                <button type="submit" class="btn btn-primary">Registrar Toga</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <h2>Registros de Togas</h2>
+            
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre del Estudiante</th>
+                        <th>Tamaño de la Toga</th>
+                        <th>Firma al Entregar</th>
+                        <th>Firma al Devolver</th>
+                    </tr>
+                </thead>
+                <tbody id="gownTableBody"></tbody>
+            </table>
+            <div id="gownPagination" class="pagination"></div>
+        </div>
+
+       
+        <button onclick="window.location.href = 'index.html';" class="btn btn-secondary mt-3">Volver al Índice</button>
+
+    </div>
+    
+</body>
+</html>

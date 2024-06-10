@@ -1,0 +1,16 @@
+body {
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+}
+.container {
+    margin-top: 20px;
+}
+.form-control, .btn {
+    margin-bottom: 10px;
+}
+.table-container {
+    margin-top: 20px;
+}
+.pagination button {
+    margin: 5px;
+}
