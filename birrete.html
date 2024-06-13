@@ -11,7 +11,8 @@
     <div class="container">
         <h1 class="text-center">Registro de Birretes</h1>
         <div class="col-md-6">
-            <form id="capForm" onsubmit="saveCap(); return false;">
+            <!-- Para guardar los datos asegurence de ponerle el mismo nombre guardarB a la función en el archivo-->
+            <form id="capForm" onsubmit="guardarB(); return false;">
                 <input type="text" id="capStudentName" class="form-control" placeholder="Nombre del Estudiante" required>
                 <input type="text" id="capSize" class="form-control" placeholder="Tamaño del Birrete" required>
                 <input type="text" id="capSignatureGiven" class="form-control" placeholder="Firma al Entregar" required>
@@ -27,6 +28,7 @@
             <table class="table table-dark table-striped">
                 <thead>
                     <tr>
+                        <th>No. Carnet</th>
                         <th>Nombre del Estudiante</th>
                         <th>Tamaño del Birrete</th>
                         <th>Firma al Entregar</th>
