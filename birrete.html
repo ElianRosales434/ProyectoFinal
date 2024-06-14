@@ -13,11 +13,11 @@
         <div class="col-md-6">
             <!-- Para guardar los datos asegurence de ponerle el mismo nombre guardarB a la función en el archivo-->
             <form id="capForm" onsubmit="guardarB(); return false;">
-                <input type="text" id="capStudentName" class="form-control" placeholder="Nombre del Estudiante" required>
-                <input type="text" id="capSize" class="form-control" placeholder="Tamaño del Birrete" required>
-                <input type="text" id="capSignatureGiven" class="form-control" placeholder="Firma al Entregar" required>
-                <input type="text" id="capSignatureReturned" class="form-control" placeholder="Firma al Devolver" required>
-                <input type="date" id="capDateIssued" class="form-control" placeholder="Fecha de Entrega" required>
+                <input type="text" id="CarnetB" class="form-control" placeholder="No. de Carnet" required>
+                <input type="text" id="NombreB" class="form-control" placeholder="Nombre del Estudiante" required>
+                <input type="text" id="TallaB" class="form-control" placeholder="Tamaño del Birrete" required>
+                <input type="date" id="FechaEnB" class="form-control" placeholder="Fecha de Entrega" required>
+                <input type="text" id="FechaReB" class="form-control" placeholder="Fecha de Devolución" required>
                 <button type="submit" class="btn btn-primary">Registrar Birrete</button>
             </form>
         </div>
@@ -31,11 +31,11 @@
                         <th>No. Carnet</th>
                         <th>Nombre del Estudiante</th>
                         <th>Tamaño del Birrete</th>
-                        <th>Firma al Entregar</th>
-                        <th>Firma al Devolver</th>
+                        <th>Fecha de Entrega</th>
+                        <th>Fecha de Devolucióm</th>
                     </tr>
                 </thead>
-                <tbody id="capTableBody"></tbody>
+                <tbody id="TablaBirrete"></tbody>
             </table>
             <div id="capPagination" class="pagination"></div>
         </div>

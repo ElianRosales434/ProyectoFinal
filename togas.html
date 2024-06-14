@@ -12,11 +12,11 @@
         <div class="col-md-6">
             <!-- Para guardar los datos asegurence de ponerle el mismo nombre guardarT a la función en el archivo-->
             <form id="gownForm" onsubmit="guardarT(); return false;">
-                <input type="text" id="gownStudentName" class="form-control" placeholder="Nombre del Estudiante" required>
-                <input type="text" id="gownSize" class="form-control" placeholder="Tamaño de la Toga" required>
-                <input type="text" id="gownSignatureGiven" class="form-control" placeholder="Firma al Entregar" required>
-                <input type="text" id="gownSignatureReturned" class="form-control" placeholder="Firma al Devolver" required>
-                <input type="date" id="gownDateIssued" class="form-control" placeholder="Fecha de Entrega" required>
+                <input type="text" id="CarnetT" class="form-control" placeholder="No. de Carnet" required>
+                <input type="text" id="NombreT" class="form-control" placeholder="Nombre del Estudiante" required>
+                <input type="text" id="TallaT" class="form-control" placeholder="Tamaño de la Toga" required>
+                <input type="date" id="FechaEnT" class="form-control" placeholder="Fecha de Entrega" required>
+                <input type="text" id="FechaReT" class="form-control" placeholder="Fecha de Devolución" required>
                 <button type="submit" class="btn btn-primary">Registrar Toga</button>
             </form>
         </div>
@@ -30,11 +30,11 @@
                         <th>No. Carnet</th>
                         <th>Nombre del Estudiante</th>
                         <th>Tamaño de la Toga</th>
-                        <th>Firma al Entregar</th>
-                        <th>Firma al Devolver</th>
+                        <th>Fecha de Entrega</th>
+                        <th>Fecha de Devolución</th>
                     </tr>
                 </thead>
-                <tbody id="gownTableBody"></tbody>
+                <tbody id="TablaTogas"></tbody>
             </table>
             <div id="gownPagination" class="pagination"></div>
         </div>
