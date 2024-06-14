@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Togas</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <?php include "./header.html" ?>
+
     <div class="container">
         <h1 class="text-center">Registro de Togas</h1>
         <div class="col-md-6">
@@ -16,7 +19,7 @@
                 <input type="text" id="NombreT" class="form-control" placeholder="Nombre del Estudiante" required>
                 <input type="text" id="TallaT" class="form-control" placeholder="Tamaño de la Toga" required>
                 <input type="date" id="FechaEnT" class="form-control" placeholder="Fecha de Entrega" required>
-                <input type="date" id="FechaDeT" class="form-control" placeholder="Fecha de Devolución" required>
+                <input type="date" id="FechaReT" class="form-control" placeholder="Fecha de Devolución" required>
                 <button type="submit" class="btn btn-primary">Registrar Toga</button>
             </form>
         </div>
@@ -38,9 +41,6 @@
             </table>
             <div id="gownPagination" class="pagination"></div>
         </div>
-
-       
-        <button onclick="window.location.href = 'index.html';" class="btn btn-secondary mt-3">Volver al Índice</button>
 
     </div>
     
