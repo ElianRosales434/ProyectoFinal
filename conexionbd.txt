@@ -1,0 +1,7 @@
+Para la conexión a la BD:
+
+HostName: database-2.c1ee4k2645pp.us-east-2.rds.amazonaws.com
+Puerto: 3306
+User: admin
+Pass: sinconexion21
+Nombre de la BD: administracion_togas_birretes
