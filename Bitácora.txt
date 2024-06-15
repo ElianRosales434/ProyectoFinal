@@ -1,0 +1,77 @@
+Resumen:
+Avances del proyecto / fases de desarrollo
+
+Priemra parte: Planteamiento
+Empezamos bien con un desarrollo que se queda en fases de prueba.
+Los comapañeros tienen noción de lo que buscamos trabajar y el
+proyecto da inicio de buena manera y esta página web de registros
+es realmente un proyecto interesante para aplicarla como proyecto.
+Por lo pronto las fases tempranas se quedan en testeos y conceptos
+
+(Nota: la documentación está repartida entre Jira y Github para el registro de avances)
+
+Segunda parte: Bases
+el desarrollo de este escenario de trabajo avanza como se esperaría,
+todo ha salido bien pese a las circunstancias que se presentaron en
+la búsqueda de una mejor opción para la creación de la base de datos
+más estable.
+
+(nota: no es seguro aún, pero como grupo estamos cosniderando fuertemente
+descartar Clever CLoud por una base de datos alterantiva, ya que la estabilidad 
+y accesibilidad nos está retrasando, sin embargo han habido avances en otras áreas)
+
+Tercera parte: Avance importante
+Pruebas hechas en el área visual han sido lo más complicado en nuestro
+grupo, pero los avances en la base de datos han sido lo más importante
+en el último sprint desarrollado. Trabajar con AWS de Amazon con métodos
+de verificación de carga de datos monitoreados por medio de WorkBench.
+La conexión es exitosa y cada miembro ha podido hacer pruebas de forma remota 
+y confirmar que en efecto el funcionamiento es absoluto.
+Este fue el punto en el que se añadió mayor cantidad de código 
+
+(nota: en este último avance se descartó enteramente el uso de CLever Cloud,
+el proyecto tuvo su mayor evolución en este segmento al usar una base de datos
+por parte de Amazon, el cuál resultó ser increiblemente estable y funcional)
+
+Cuarta parte: Registros
+El avance la última vez fue excelente, nos permitió implementar una mejora significativa
+a nivel lógico, aunque hay algunos errores en la tabal que debería mostrar los registros 
+el funcionamiento base y útil ha tenido resultados positivos.
+la dedicación en este punto se ha esmerado en localización y correción de errores 
+de programación cometidos previamente.
+La tabla de registros se ha corregido y ahora sí es funcional
+
+(nota: en el área visual y de interfaz hemos tenido dificultades para hacer un avance que
+sea funcional, pero los detalles se corrigeron en esta misma sesión de trabajo y podemos decir que 
+esta página es totalmente funcional)
+
+Quinta parte: Ajustes
+Esta área fue dedicada solamente a terminar los detalles menos relevantes de manera objetiva a 
+nivel de funcionamiento, se le dieron retoques a nivel visual para hacer más cómoda la navegación
+al añadir pequeños elementos de comodidad, pero hemos podido concluir gratamente el producto 
+que buscábamos, todo salión bien y el funcionamiento de la base de datos sinceramente nos soprendió 
+a todos, así que tras concluir esta actividad todo salió según los esperado, aún contando con 
+los cotratiempos que se tuvieron
+
+(Nota: Se esperan algunas modificaciones finales esperando que funcionen correctamente)
+
+
+
+¿Qué mejoras tuvieron en cada sprint?
+
+mucho avance a nivel lógico, sobre todo en la versatilidad que tomamos posteriormente
+
+¿Qué tan complicado fue cumplir con los eventos Scrum?
+
+Mucho, sin ser exagerado relamente fue complicado pero sin embargo se presentaron muchos avances 
+significativos en las ocaciones que se logró na cordinación casi perfecta
+
+¿Qué beneficios les trajo utilizar Jira para dar seguimiento del proyecto?
+
+fue un pequeño apoyo para lo que busacábamos, fue funcional aunque no lo 
+utilizamos tanto como esperábamos
+
+¿Qué herramientas de las trabajadas en el curso lograron aplicar en el proyecto?
+Jira
+Github
+Xampp
